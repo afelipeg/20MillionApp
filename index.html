@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP - Plan de Medios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plan de Medios</h1>
+        <form>
+            <textarea id="prompt" rows="5" cols="50" placeholder="Ingresa tu prompt aquí..."></textarea>
+            <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png,.xlsx">
+            <input type="text" id="urlInput" placeholder="Pega la URL de Google Sheets">
+            <button type="button" onclick="generateResponse()">Generar Plan de Medios</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
